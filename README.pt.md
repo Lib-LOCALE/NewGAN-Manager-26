@@ -27,9 +27,9 @@
 
 # NewGAN Manager - FM26 Edition (Fork)
 
-> ⚠️ **CURRENT STATUS: ON HOLD / WAITING FOR GAME UPDATE** ⚠️
+> ⚠️ **PROJECT STATUS: PAUSED / WAITING FOR EXPORT WORKFLOW** ⚠️
 >
-> **English:** Currently, this tool is **NOT functional with Football Manager 26**. The transition to the Unity Engine removed the "Print Screen" (Ctrl+P) data export feature, which is required to extract Player IDs.
+> **English:** The end-to-end generation workflow is currently **paused for Football Manager 26** because the transition to the Unity Engine removed the "Print Screen" (Ctrl+P) data export feature, which is required to extract Player IDs.
 >
 > **Français :** Actuellement, cet outil n'est **PAS fonctionnel sur Football Manager 26**. Le passage au moteur Unity a supprimé la fonctionnalité d'export de données (Ctrl+P), indispensable pour récupérer les IDs des joueurs.
 
@@ -67,7 +67,7 @@ Esta é uma reescrita completa do [NewGAN-Manager](https://github.com/Maradonna9
 ## 📥 Instalação
 
 ### Windows
-1. Baixe o último `.exe` (portátil) das [Releases](https://github.com/AnthonyMahe/NewGAN-Manager-26/releases)
+1. Baixe o último `.exe` (portátil) das [Releases](https://github.com/Lib-LOCALE/NewGAN-Manager-26/releases)
 2. Execute a aplicação
 3. Mova as pastas `views/` e `filters/` para sua pasta de usuário do Football Manager:
    ```
@@ -76,7 +76,7 @@ Esta é uma reescrita completa do [NewGAN-Manager](https://github.com/Maradonna9
 3. Execute NewGAN Manager 26
 
 ### Linux
-1. Baixe o `.AppImage` das [Releases](https://github.com/AnthonyMahe/NewGAN-Manager-26/releases)
+1. Baixe o `.AppImage` das [Releases](https://github.com/Lib-LOCALE/NewGAN-Manager-26/releases)
 2. Para AppImage: `chmod +x *.AppImage` e execute
 3. Mova as pastas `views/` e `filters/` para sua pasta de usuário do Football Manager:
    ```
@@ -117,7 +117,7 @@ Esta é uma reescrita completa do [NewGAN-Manager](https://github.com/Maradonna9
 - **Ayal, Zealand, ZeBurgs**: Geração de Imagens
 
 ### NewGAN Manager 26
-- **[AnthonyMahe](https://github.com/AnthonyMahe)**: Reescrita com Tauri + Svelte 5
+- **[Lib-LOCALE](https://github.com/Lib-LOCALE)**: Reescrita com Tauri + Svelte 5
 
 ---
 
@@ -129,7 +129,7 @@ Distribuído sob a GNU General Public License v3.0. Veja `LICENSE` para mais inf
 
 ## 🐛 Solução de Problemas
 
-Se encontrar problemas, por favor [abra uma issue](https://github.com/AnthonyMahe/NewGAN-Manager-26/issues) com:
+Se encontrar problemas, por favor [abra uma issue](https://github.com/Lib-LOCALE/NewGAN-Manager-26/issues) com:
 - Seu sistema operacional
 - Passos para reproduzir
 - Qualquer mensagem de erro ou capturas de tela
@@ -149,7 +149,7 @@ All releases are cryptographically signed and verified:
 - **SHA256 Checksums**: Compare with checksums_windows.txt / checksums_linux.txt
 - **GitHub Attestations**: Verify build provenance with:
 `ash
-gh attestation verify <downloaded-file> --owner AnthonyMahe
+gh attestation verify <downloaded-file> --owner Lib-LOCALE
 `
 
 

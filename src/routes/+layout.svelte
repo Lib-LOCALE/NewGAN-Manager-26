@@ -42,7 +42,7 @@
         
         <!-- Footer Credit -->
         <footer class="text-center py-2 text-xs text-gray-500 border-t border-gray-800/50">
-            {$t('app.footer')} <a href="https://github.com/Maradonna90/NewGAN-Manager" target="_blank" class="text-cyan-600 hover:text-cyan-400 transition-colors">NewGAN-Manager</a> - by <a href="https://github.com/AnthonyMahe" target="_blank" class="text-cyan-600 hover:text-cyan-400 transition-colors">AnthonyMahe</a>
+            {$t('app.footer')} <a href="https://github.com/Maradonna90/NewGAN-Manager" target="_blank" class="text-cyan-600 hover:text-cyan-400 transition-colors">NewGAN-Manager</a> - by <a href="https://github.com/Lib-LOCALE" target="_blank" class="text-cyan-600 hover:text-cyan-400 transition-colors">Lib-LOCALE</a>
         </footer>
 
     </div>
