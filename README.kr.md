@@ -27,9 +27,9 @@
 
 # NewGAN Manager - FM26 Edition (Fork)
 
-> ⚠️ **CURRENT STATUS: ON HOLD / WAITING FOR GAME UPDATE** ⚠️
+> ⚠️ **PROJECT STATUS: PAUSED / WAITING FOR EXPORT WORKFLOW** ⚠️
 >
-> **English:** Currently, this tool is **NOT functional with Football Manager 26**. The transition to the Unity Engine removed the "Print Screen" (Ctrl+P) data export feature, which is required to extract Player IDs.
+> **English:** The end-to-end generation workflow is currently **paused for Football Manager 26** because the transition to the Unity Engine removed the "Print Screen" (Ctrl+P) data export feature, which is required to extract Player IDs.
 >
 > **Français :** Actuellement, cet outil n'est **PAS fonctionnel sur Football Manager 26**. Le passage au moteur Unity a supprimé la fonctionnalité d'export de données (Ctrl+P), indispensable pour récupérer les IDs des joueurs.
 
@@ -67,7 +67,7 @@
 ## 📥 설치
 
 ### Windows
-1. [Releases](https://github.com/AnthonyMahe/NewGAN-Manager-26/releases)에서 최신 `.exe` (포터블) 또는 `.msi` 설치 프로그램 다운로드
+1. [Releases](https://github.com/Lib-LOCALE/NewGAN-Manager-26/releases)에서 최신 `.exe` (포터블) 또는 `.msi` 설치 프로그램 다운로드
 2. 애플리케이션 실행
 3. `views/` 및 `filters/` 폴더를 Football Manager 사용자 폴더로 이동:
    ```
@@ -76,7 +76,7 @@
 3. NewGAN Manager 26 실행
 
 ### Linux
-1. [Releases](https://github.com/AnthonyMahe/NewGAN-Manager-26/releases)에서 `.AppImage` 또는 `.deb` 다운로드
+1. [Releases](https://github.com/Lib-LOCALE/NewGAN-Manager-26/releases)에서 `.AppImage` 또는 `.deb` 다운로드
 2. AppImage의 경우: `chmod +x *.AppImage` 후 실행
 3. `views/` 및 `filters/` 폴더를 Football Manager 사용자 폴더로 이동:
    ```
@@ -117,7 +117,7 @@
 - **Ayal, Zealand, ZeBurgs**: 이미지 생성
 
 ### NewGAN Manager 26
-- **[AnthonyMahe](https://github.com/AnthonyMahe)**: Tauri + Svelte 5로 재작성
+- **[Lib-LOCALE](https://github.com/Lib-LOCALE)**: Tauri + Svelte 5로 재작성
 
 ---
 
@@ -129,7 +129,7 @@ GNU General Public License v3.0에 따라 배포됩니다. 자세한 내용은 `
 
 ## 🐛 문제 해결
 
-문제가 발생하면 다음 정보와 함께 [이슈를 열어주세요](https://github.com/AnthonyMahe/NewGAN-Manager-26/issues):
+문제가 발생하면 다음 정보와 함께 [이슈를 열어주세요](https://github.com/Lib-LOCALE/NewGAN-Manager-26/issues):
 - 운영 체제
 - 재현 단계
 - 오류 메시지 또는 스크린샷
@@ -149,7 +149,7 @@ All releases are cryptographically signed and verified:
 - **SHA256 Checksums**: Compare with checksums_windows.txt / checksums_linux.txt
 - **GitHub Attestations**: Verify build provenance with:
 `ash
-gh attestation verify <downloaded-file> --owner AnthonyMahe
+gh attestation verify <downloaded-file> --owner Lib-LOCALE
 `
 
 
